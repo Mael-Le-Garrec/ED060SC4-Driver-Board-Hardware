@@ -1,0 +1,23 @@
+.nfs*
+"#auto_saved_files#"
+fp-info-cache
+freerouting.dsn
+temp-freerouting.dsn
+*-backups
+*.dsn
+
+# Local settings file, like the hidden layers in the PCB editor 
+# Or the Interactive BOM plugin
+*.kicad_prl
+ibom.config.ini
+
+# 3D export of the PCB
+*.step
+
+# Intermediate file use when generating the netlist
+*.xml
+
+# Free Routing
+*.rules
+*.bin
+*.ses
