@@ -474,7 +474,11 @@
     ],
     [
       "206a8fa8-f7e5-47a5-936e-45a9c4fae482",
-      "Power Management"
+      "EPD Power Rails"
+    ],
+    [
+      "192a81b0-b4fc-4783-8995-548f9b33641c",
+      "EPD ED060SC4"
     ]
   ],
   "text_variables": {}
