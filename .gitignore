@@ -12,7 +12,7 @@ temp-freerouting.dsn
 ibom.config.ini
 
 # 3D export of the PCB
-*.step
+#*.step
 
 # Intermediate file use when generating the netlist
 *.xml
