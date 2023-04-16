@@ -1147,6 +1147,7 @@
     )
   )
 
+
   (junction (at 45.72 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 147bbdfc-7295-4a0a-aaca-9c2facf3dea9)
   )
@@ -3310,7 +3311,7 @@
     (property "Reference" "SW2" (at 69.85 44.45 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SW_DIP_x01" (at 69.85 54.61 90)
+    (property "Value" "DSIC01LSGET" (at 69.85 54.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "local_lib:DSIC01LSGET" (at 69.85 49.53 0)
