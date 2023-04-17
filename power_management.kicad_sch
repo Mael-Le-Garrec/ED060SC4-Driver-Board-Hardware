@@ -1351,7 +1351,7 @@
     (uuid fed17433-2b28-4f15-9582-f57c5b90f557)
   )
 
-  (text "This schematic is based on one found in \"TPS65185 Evaluation Module\" user's guide.\nIt is suited for the required rails -20V, -15V, 15V, 22V and 3.3V.\n\nThis schematic assumes a VIN power of 3.3V, that is also used for the pull-up resistors of ~{INT} and PWR_GOOD."
+  (text "This schematic is based on one found in TI's \"TPS65185 Evaluation Module\" user's guide.\nIt is suited for the required rails -20V, -15V, 15V, 22V and 3.3V.\n\nThis schematic assumes a VIN power of 3.3V, that is also used for the pull-up resistors of ~{INT} and PWR_GOOD."
     (at 77.47 148.59 0)
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid 48c495d7-954e-4c26-9885-d686143eb36a)
