@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ED060SC4")(type "KiCad")(uri "${KIPRJMOD}/symbols_library/ed060sc4.kicad_sym")(options "")(descr ""))
   (lib (name "TPS65185")(type "KiCad")(uri "${KIPRJMOD}/symbols_library/TPS65185RGZR.kicad_sym")(options "")(descr ""))
+  (lib (name "powers")(type "KiCad")(uri "${KIPRJMOD}/symbols_library/powers.kicad_sym")(options "")(descr ""))
 )
