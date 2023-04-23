@@ -27,8 +27,7 @@ ready to be sent for manufacturing.
 
 ## Images
 
-![Top View](./outputs/3d_view/top.png)
-![Back View](./outputs/3d_view/back.png)
 ![Front View](./outputs/3d_view/front.png)
 ![Back View](./outputs/3d_view/back.png)
-
+![Top View](./outputs/3d_view/top.png)
+![Bottom View](./outputs/3d_view/bottom.png)
