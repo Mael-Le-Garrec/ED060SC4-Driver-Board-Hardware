@@ -574,6 +574,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2cfc856-9478-495f-a003-bdead8609440)
   )
+  (text "EPD ED060SC4\n" (at 15.24 22.86 0)
+    (effects (font (size 5 5) (thickness 1.2) bold) (justify left bottom))
+    (uuid c6db6c8b-6f65-461a-9931-825f5f1543b4)
+  )
 
   (hierarchical_label "VCOM" (shape input) (at 83.82 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))

@@ -1402,6 +1402,10 @@
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid 48c495d7-954e-4c26-9885-d686143eb36a)
   )
+  (text "EPD Power Rails" (at 15.24 22.86 0)
+    (effects (font (size 5 5) (thickness 1.2) bold) (justify left bottom))
+    (uuid 4a1656ce-a082-47c3-a47a-bbb4042c7c69)
+  )
 
   (label "VEE_D" (at 171.45 63.5 0) (fields_autoplaced)
     (effects (font (size 0.8 0.8)) (justify left bottom))
@@ -1554,7 +1558,7 @@
   (symbol (lib_id "power:GND") (at 76.2 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 033d3f49-7825-4bcd-aae3-bac6b713175e)
-    (property "Reference" "#PWR018" (at 69.85 90.17 0)
+    (property "Reference" "#PWR?" (at 69.85 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 90.17 0)
@@ -1570,7 +1574,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR01") (unit 1)
@@ -1582,7 +1586,7 @@
   (symbol (lib_id "power:GND") (at 76.2 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 037b119d-0878-49d3-9619-50bc9e655d80)
-    (property "Reference" "#PWR019" (at 69.85 107.95 0)
+    (property "Reference" "#PWR?" (at 69.85 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 107.95 0)
@@ -1598,7 +1602,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR02") (unit 1)
@@ -1610,7 +1614,7 @@
   (symbol (lib_id "power:GND") (at 212.09 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0617e77f-4ec6-4685-82ba-867db089a78a)
-    (property "Reference" "#PWR025" (at 212.09 73.66 0)
+    (property "Reference" "#PWR?" (at 212.09 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 72.39 0)
@@ -1626,7 +1630,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR060") (unit 1)
@@ -1638,7 +1642,7 @@
   (symbol (lib_id "power:GND") (at 200.66 39.37 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06c4ca26-46a9-4a55-b58d-9c8f08b74e8a)
-    (property "Reference" "#PWR08" (at 207.01 39.37 0)
+    (property "Reference" "#PWR?" (at 207.01 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 39.37 0)
@@ -1654,7 +1658,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR059") (unit 1)
@@ -1666,7 +1670,7 @@
   (symbol (lib_id "Device:C") (at 180.34 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0f445d-f1ab-44ae-9349-7ffe5a0c1aab)
-    (property "Reference" "C14" (at 176.53 95.25 90)
+    (property "Reference" "C?" (at 176.53 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 176.53 92.71 90)
@@ -1692,7 +1696,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C14") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C12") (unit 1)
@@ -1704,7 +1708,7 @@
   (symbol (lib_id "Device:C") (at 96.52 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c0252e4-182e-4069-84fd-20b79f3256cb)
-    (property "Reference" "C2" (at 93.98 43.18 90)
+    (property "Reference" "C?" (at 93.98 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10µF" (at 92.71 40.64 90)
@@ -1730,7 +1734,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C5") (unit 1)
@@ -1777,7 +1781,7 @@
   (symbol (lib_id "power:GND") (at 190.5 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1094c4d0-a8ca-408a-b115-241897bac788)
-    (property "Reference" "#PWR020" (at 196.85 109.22 0)
+    (property "Reference" "#PWR?" (at 196.85 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 109.22 0)
@@ -1793,7 +1797,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR021") (unit 1)
@@ -1805,7 +1809,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 181.61 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11c03217-bacb-4b90-a779-143b6ce6ad06)
-    (property "Reference" "D2" (at 185.42 50.8 0)
+    (property "Reference" "D?" (at 185.42 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 181.61 54.61 0)
@@ -1825,7 +1829,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "D2") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "D4") (unit 1)
@@ -1837,7 +1841,7 @@
   (symbol (lib_id "Device:R") (at 91.44 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17e064ee-eb90-4adf-a974-50e3183b3933)
-    (property "Reference" "R2" (at 88.9 73.66 90)
+    (property "Reference" "R?" (at 88.9 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47.5k" (at 93.98 73.66 90)
@@ -1857,7 +1861,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R2") (unit 1)
@@ -1894,7 +1898,7 @@
   (symbol (lib_id "power:GND") (at 208.28 52.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a100aae-c762-41d3-8b0d-e2f53eaad7db)
-    (property "Reference" "#PWR09" (at 214.63 52.07 0)
+    (property "Reference" "#PWR?" (at 214.63 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 52.07 0)
@@ -1910,7 +1914,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR024") (unit 1)
@@ -1922,7 +1926,7 @@
   (symbol (lib_id "Device:L") (at 185.42 48.26 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fe51194-62a5-4839-ac43-c2a46730af47)
-    (property "Reference" "L2" (at 189.23 46.99 90)
+    (property "Reference" "L?" (at 189.23 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µH" (at 184.15 45.72 90)
@@ -1942,7 +1946,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "L2") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "L2") (unit 1)
@@ -1954,7 +1958,7 @@
   (symbol (lib_id "power:GND") (at 129.54 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2716af89-e93c-403c-9b2c-de87a55e2c44)
-    (property "Reference" "#PWR03" (at 123.19 52.07 0)
+    (property "Reference" "#PWR?" (at 123.19 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 52.07 0)
@@ -1970,7 +1974,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR012") (unit 1)
@@ -1982,7 +1986,7 @@
   (symbol (lib_id "Device:C") (at 195.58 39.37 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 284bf7b2-cc79-45a7-a637-b2b180441d32)
-    (property "Reference" "C3" (at 191.77 40.64 90)
+    (property "Reference" "C?" (at 191.77 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10µF" (at 191.77 38.1 90)
@@ -2008,7 +2012,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C17") (unit 1)
@@ -2020,7 +2024,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 111.76 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a34a9cd-a34a-4e04-a7fe-ec3c71450bdb)
-    (property "Reference" "TH1" (at 104.14 86.36 90)
+    (property "Reference" "TH?" (at 104.14 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k NTC" (at 119.38 83.82 90)
@@ -2040,7 +2044,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "TH1") (unit 1)
+          (reference "TH?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "TH1") (unit 1)
@@ -2052,7 +2056,7 @@
   (symbol (lib_id "power:GND") (at 168.91 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b02e0f8-edb3-4f49-ab8c-be77d276bf42)
-    (property "Reference" "#PWR04" (at 175.26 72.39 0)
+    (property "Reference" "#PWR?" (at 175.26 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 72.39 0)
@@ -2068,7 +2072,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR015") (unit 1)
@@ -2080,7 +2084,7 @@
   (symbol (lib_id "Device:C") (at 96.52 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 309c0965-a657-49c6-946f-1924b630a17e)
-    (property "Reference" "C1" (at 93.98 50.8 90)
+    (property "Reference" "C?" (at 93.98 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 92.71 48.26 90)
@@ -2106,7 +2110,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C6") (unit 1)
@@ -2118,7 +2122,7 @@
   (symbol (lib_id "Device:C") (at 195.58 52.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 32b607e9-f2c7-4987-abdb-ac9c577c48a5)
-    (property "Reference" "C4" (at 191.77 53.34 90)
+    (property "Reference" "C?" (at 191.77 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 191.77 50.8 90)
@@ -2144,7 +2148,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C4") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C18") (unit 1)
@@ -2156,7 +2160,7 @@
   (symbol (lib_id "power:GND") (at 109.22 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32fa822a-07f2-4abd-a9b6-8ad299bcd05f)
-    (property "Reference" "#PWR011" (at 102.87 59.69 0)
+    (property "Reference" "#PWR?" (at 102.87 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 59.69 0)
@@ -2172,7 +2176,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR011") (unit 1)
@@ -2184,7 +2188,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 110.49 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 372888c5-298b-438d-bd0a-196ad224d670)
-    (property "Reference" "D1" (at 106.68 48.26 0)
+    (property "Reference" "D?" (at 106.68 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D_Schottky" (at 110.49 52.07 0)
@@ -2204,7 +2208,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "D1") (unit 1)
+          (reference "D?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "D3") (unit 1)
@@ -2216,7 +2220,7 @@
   (symbol (lib_id "Device:C") (at 180.34 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3752120b-cdc1-4587-8cac-7d9dd7e07cd2)
-    (property "Reference" "C13" (at 176.53 102.87 90)
+    (property "Reference" "C?" (at 176.53 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 176.53 100.33 90)
@@ -2242,7 +2246,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C13") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C13") (unit 1)
@@ -2254,7 +2258,7 @@
   (symbol (lib_id "Device:R") (at 91.44 66.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 420cb123-0448-4ce4-84b0-141a8ecd13ae)
-    (property "Reference" "R1" (at 88.9 66.04 90)
+    (property "Reference" "R?" (at 88.9 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 91.44 66.04 90)
@@ -2274,7 +2278,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R1") (unit 1)
@@ -2286,7 +2290,7 @@
   (symbol (lib_id "Device:C") (at 93.98 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46c15f07-1c72-4119-9a3a-35c21eed2779)
-    (property "Reference" "C9" (at 91.44 87.63 90)
+    (property "Reference" "C?" (at 91.44 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 90.17 85.09 90)
@@ -2315,7 +2319,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C4") (unit 1)
@@ -2327,7 +2331,7 @@
   (symbol (lib_id "Device:C") (at 107.95 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 476989be-0c02-46d9-96e2-8d19da2ff06d)
-    (property "Reference" "C7" (at 105.41 74.93 90)
+    (property "Reference" "C?" (at 105.41 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 104.14 72.39 90)
@@ -2353,7 +2357,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C7") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C8") (unit 1)
@@ -2365,7 +2369,7 @@
   (symbol (lib_id "power:GND") (at 185.42 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4dee35ee-40f4-4c4a-9011-a96a2f3a5b4a)
-    (property "Reference" "#PWR023" (at 191.77 82.55 0)
+    (property "Reference" "#PWR?" (at 191.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 82.55 0)
@@ -2381,7 +2385,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR018") (unit 1)
@@ -2428,7 +2432,7 @@
   (symbol (lib_id "Device:C") (at 180.34 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59074213-20a8-4146-a6eb-7ce40e6877f4)
-    (property "Reference" "C15" (at 176.53 83.82 90)
+    (property "Reference" "C?" (at 176.53 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 176.53 81.28 90)
@@ -2454,7 +2458,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C15") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C11") (unit 1)
@@ -2466,7 +2470,7 @@
   (symbol (lib_id "Device:R") (at 204.47 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e64f777-0b4d-431a-9bbe-cbb5ec5af4c7)
-    (property "Reference" "R9" (at 201.93 67.31 90)
+    (property "Reference" "R?" (at 201.93 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "52.3k" (at 201.93 72.39 90)
@@ -2486,7 +2490,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R9") (unit 1)
@@ -2498,7 +2502,7 @@
   (symbol (lib_id "power:GND") (at 91.44 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6be94015-e993-4de5-bca1-e37107a94447)
-    (property "Reference" "#PWR012" (at 91.44 83.82 0)
+    (property "Reference" "#PWR?" (at 91.44 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 82.55 0)
@@ -2514,7 +2518,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR05") (unit 1)
@@ -2526,7 +2530,7 @@
   (symbol (lib_id "Device:C") (at 85.09 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7323e0c8-66ee-4897-833b-afd6202dfd31)
-    (property "Reference" "C11" (at 82.55 109.22 90)
+    (property "Reference" "C?" (at 82.55 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 81.28 106.68 90)
@@ -2552,7 +2556,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C11") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C3") (unit 1)
@@ -2564,7 +2568,7 @@
   (symbol (lib_id "Device:R") (at 199.39 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77493e18-ba5e-4925-b5b6-e77c51310687)
-    (property "Reference" "R7" (at 203.2 123.19 90)
+    (property "Reference" "R?" (at 203.2 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 199.39 124.46 90)
@@ -2584,7 +2588,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R7") (unit 1)
@@ -2596,7 +2600,7 @@
   (symbol (lib_id "power:GND") (at 204.47 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ae7d5b5-3398-4db5-a469-4c1afccb0e34)
-    (property "Reference" "#PWR025" (at 204.47 80.01 0)
+    (property "Reference" "#PWR?" (at 204.47 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 78.74 0)
@@ -2612,7 +2616,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR025") (unit 1)
@@ -2624,7 +2628,7 @@
   (symbol (lib_id "Device:L") (at 106.68 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d210717-8492-41e0-8d37-c971c315ab85)
-    (property "Reference" "L1" (at 110.49 44.45 90)
+    (property "Reference" "L?" (at 110.49 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2µH" (at 106.68 43.18 90)
@@ -2644,7 +2648,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "L1") (unit 1)
@@ -2656,7 +2660,7 @@
   (symbol (lib_id "Device:R") (at 204.47 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 926756cb-f3a6-4141-89b6-9bfebee7cc7a)
-    (property "Reference" "R8" (at 201.93 62.23 90)
+    (property "Reference" "R?" (at 201.93 62.23 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 204.47 62.23 90)
@@ -2676,7 +2680,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R8") (unit 1)
@@ -2688,7 +2692,7 @@
   (symbol (lib_id "Device:R") (at 180.34 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95524aea-5ce9-4bfe-98ec-462509ff1c14)
-    (property "Reference" "R6" (at 184.15 123.19 90)
+    (property "Reference" "R?" (at 184.15 123.19 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 180.34 124.46 90)
@@ -2708,7 +2712,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R6") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R6") (unit 1)
@@ -2720,7 +2724,7 @@
   (symbol (lib_id "Device:C") (at 82.55 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95c7efd0-3cd6-4934-957c-9e8b3f39c460)
-    (property "Reference" "C10" (at 80.01 91.44 90)
+    (property "Reference" "C?" (at 80.01 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10µF" (at 78.74 88.9 90)
@@ -2746,7 +2750,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C2") (unit 1)
@@ -2758,7 +2762,7 @@
   (symbol (lib_id "Device:C") (at 180.34 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9800a878-4a9d-486d-8fd2-693ed043ae84)
-    (property "Reference" "C16" (at 176.53 76.2 90)
+    (property "Reference" "C?" (at 176.53 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 176.53 73.66 90)
@@ -2784,7 +2788,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C16") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C10") (unit 1)
@@ -2796,7 +2800,7 @@
   (symbol (lib_id "Device:C") (at 184.15 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c8cc010-16bb-4063-8f36-cd03b13858d9)
-    (property "Reference" "C12" (at 180.34 110.49 90)
+    (property "Reference" "C?" (at 180.34 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 180.34 107.95 90)
@@ -2822,7 +2826,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C14") (unit 1)
@@ -2834,7 +2838,7 @@
   (symbol (lib_id "Device:C") (at 115.57 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d5fb2b3-59da-4af9-8bb0-784f2f80dbec)
-    (property "Reference" "C5" (at 113.03 60.96 90)
+    (property "Reference" "C?" (at 113.03 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 111.76 58.42 90)
@@ -2860,7 +2864,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C5") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C9") (unit 1)
@@ -2872,7 +2876,7 @@
   (symbol (lib_id "TPS65185:TPS65185RGZR") (at 147.32 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f41ed19-86ee-4988-bfae-4d98a5a48fae)
-    (property "Reference" "U1" (at 149.225 41.91 0)
+    (property "Reference" "U?" (at 149.225 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS65185RGZR" (at 149.225 44.45 0)
@@ -2934,7 +2938,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "U1") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "U1") (unit 1)
@@ -2946,7 +2950,7 @@
   (symbol (lib_id "power:GND") (at 190.5 59.69 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab4412ba-fc24-4af6-8730-70956e26759d)
-    (property "Reference" "#PWR024" (at 196.85 59.69 0)
+    (property "Reference" "#PWR?" (at 196.85 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 59.69 0)
@@ -2962,7 +2966,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR022") (unit 1)
@@ -2974,7 +2978,7 @@
   (symbol (lib_id "Device:C") (at 109.22 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adf0d31c-9cf2-44d3-a48f-b27da53a2e5a)
-    (property "Reference" "C6" (at 106.68 68.58 90)
+    (property "Reference" "C?" (at 106.68 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 105.41 66.04 90)
@@ -3000,7 +3004,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C6") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C7") (unit 1)
@@ -3012,7 +3016,7 @@
   (symbol (lib_id "Device:C") (at 179.07 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1e792d1-fb5e-4782-a8f9-c7d188a7b8f0)
-    (property "Reference" "C17" (at 175.26 60.96 90)
+    (property "Reference" "C?" (at 175.26 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 175.26 58.42 90)
@@ -3038,7 +3042,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C17") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C16") (unit 1)
@@ -3085,7 +3089,7 @@
   (symbol (lib_id "power:GND") (at 83.82 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba252e45-51a6-4f9f-a83f-11d3731797ba)
-    (property "Reference" "#PWR013" (at 83.82 80.01 0)
+    (property "Reference" "#PWR?" (at 83.82 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 78.74 0)
@@ -3101,7 +3105,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR03") (unit 1)
@@ -3113,7 +3117,7 @@
   (symbol (lib_id "power:GND") (at 185.42 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf05bc8f-086f-42db-9e51-3492b6b2780f)
-    (property "Reference" "#PWR022" (at 191.77 93.98 0)
+    (property "Reference" "#PWR?" (at 191.77 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 93.98 0)
@@ -3129,7 +3133,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR019") (unit 1)
@@ -3141,7 +3145,7 @@
   (symbol (lib_id "Device:C") (at 83.82 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7ceded8-498b-431a-8f27-5899699c2040)
-    (property "Reference" "C8" (at 86.36 67.31 0)
+    (property "Reference" "C?" (at 86.36 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 80.01 67.31 0)
@@ -3167,7 +3171,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C1") (unit 1)
@@ -3179,7 +3183,7 @@
   (symbol (lib_id "power:GND") (at 185.42 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cde83dc7-bf1c-4ba9-afe9-82c2dc209b0e)
-    (property "Reference" "#PWR010" (at 191.77 74.93 0)
+    (property "Reference" "#PWR?" (at 191.77 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 74.93 0)
@@ -3195,7 +3199,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR017") (unit 1)
@@ -3232,7 +3236,7 @@
   (symbol (lib_id "power:GND") (at 107.95 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3ce4ce1-5254-4126-9b42-fb90994a4d09)
-    (property "Reference" "#PWR016" (at 101.6 85.09 0)
+    (property "Reference" "#PWR?" (at 101.6 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 85.09 0)
@@ -3248,7 +3252,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR09") (unit 1)
@@ -3260,7 +3264,7 @@
   (symbol (lib_id "power:GND") (at 85.09 49.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d652726c-1c15-4a9f-bf20-e7458bf3a815)
-    (property "Reference" "#PWR06" (at 78.74 49.53 0)
+    (property "Reference" "#PWR?" (at 78.74 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 49.53 0)
@@ -3276,7 +3280,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR07") (unit 1)
@@ -3288,7 +3292,7 @@
   (symbol (lib_id "Device:C") (at 212.09 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dae878a4-b656-4163-bf94-1fdf6f440955)
-    (property "Reference" "C19" (at 214.63 60.96 0)
+    (property "Reference" "C?" (at 214.63 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4.7µF" (at 209.55 60.96 0)
@@ -3314,7 +3318,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C19") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C19") (unit 1)
@@ -3326,7 +3330,7 @@
   (symbol (lib_id "power:GND") (at 185.42 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd465996-c0e1-44a2-bd20-28bb6bcb516a)
-    (property "Reference" "#PWR021" (at 191.77 101.6 0)
+    (property "Reference" "#PWR?" (at 191.77 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 101.6 0)
@@ -3342,7 +3346,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR020") (unit 1)
@@ -3354,7 +3358,7 @@
   (symbol (lib_id "power:GND") (at 107.95 90.17 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de05772f-197b-4adf-ae38-d8fdb87dd3a7)
-    (property "Reference" "#PWR017" (at 101.6 90.17 0)
+    (property "Reference" "#PWR?" (at 101.6 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 90.17 0)
@@ -3370,7 +3374,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR010") (unit 1)
@@ -3382,7 +3386,7 @@
   (symbol (lib_id "power:GND") (at 168.91 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b3116f-2a79-4e0e-ae2c-a84ba0cf3701)
-    (property "Reference" "#PWR05" (at 175.26 104.14 0)
+    (property "Reference" "#PWR?" (at 175.26 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 104.14 0)
@@ -3398,7 +3402,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR016") (unit 1)
@@ -3410,7 +3414,7 @@
   (symbol (lib_id "power:GND") (at 208.28 48.26 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efa31690-b31e-466c-9451-a9b7f6e71845)
-    (property "Reference" "#PWR08" (at 214.63 48.26 0)
+    (property "Reference" "#PWR?" (at 214.63 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 48.26 0)
@@ -3426,7 +3430,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR023") (unit 1)
@@ -3438,7 +3442,7 @@
   (symbol (lib_id "Device:C") (at 179.07 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f22c5fad-ba44-43c2-a7e4-a05e5178e762)
-    (property "Reference" "C18" (at 175.26 67.31 90)
+    (property "Reference" "C?" (at 175.26 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 175.26 64.77 90)
@@ -3464,7 +3468,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "C18") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "C15") (unit 1)
@@ -3476,7 +3480,7 @@
   (symbol (lib_id "power:GND") (at 129.54 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f419769c-00eb-49b2-892f-416cbf2c4b66)
-    (property "Reference" "#PWR02" (at 123.19 87.63 0)
+    (property "Reference" "#PWR?" (at 123.19 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 87.63 0)
@@ -3492,7 +3496,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR013") (unit 1)
@@ -3504,7 +3508,7 @@
   (symbol (lib_id "power:GND") (at 76.2 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f42c8a14-0e12-46d8-9293-508ca8114477)
-    (property "Reference" "#PWR015" (at 69.85 86.36 0)
+    (property "Reference" "#PWR?" (at 69.85 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 86.36 0)
@@ -3520,7 +3524,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR04") (unit 1)
@@ -3532,7 +3536,7 @@
   (symbol (lib_id "Device:R") (at 111.76 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid facd365c-5b23-4e35-9b9b-f9d66e2ea7f9)
-    (property "Reference" "R3" (at 111.76 92.71 90)
+    (property "Reference" "R?" (at 111.76 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "43k" (at 111.76 90.17 90)
@@ -3552,7 +3556,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "R4") (unit 1)
@@ -3564,7 +3568,7 @@
   (symbol (lib_id "power:GND") (at 129.54 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fad9a4cb-2766-4b48-a509-a5adf48ea01b)
-    (property "Reference" "#PWR01" (at 123.19 129.54 0)
+    (property "Reference" "#PWR?" (at 123.19 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 129.54 0)
@@ -3580,7 +3584,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR014") (unit 1)
@@ -3592,7 +3596,7 @@
   (symbol (lib_id "power:GND") (at 85.09 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fda33334-0f23-494c-8f21-0f0a2ed21c86)
-    (property "Reference" "#PWR07" (at 78.74 41.91 0)
+    (property "Reference" "#PWR?" (at 78.74 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 41.91 0)
@@ -3608,7 +3612,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR06") (unit 1)
@@ -3655,7 +3659,7 @@
   (symbol (lib_id "power:GND") (at 101.6 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff326a9b-f571-4679-b329-2b99c94d0879)
-    (property "Reference" "#PWR014" (at 95.25 73.66 0)
+    (property "Reference" "#PWR?" (at 95.25 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 73.66 0)
@@ -3671,7 +3675,7 @@
     (instances
       (project "ED060SC4_SPI_driver_board"
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/ca3502a7-c6e3-4b60-a1ea-4c8c79295bfe/206a8fa8-f7e5-47a5-936e-45a9c4fae482"
           (reference "#PWR08") (unit 1)
