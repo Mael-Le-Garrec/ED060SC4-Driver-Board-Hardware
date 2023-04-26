@@ -1991,10 +1991,10 @@
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp 7bb02183-bdb9-4637-acbf-c9b27eb8b0d7))
     (pad "2" smd rect (at 1.4 0 90) (size 1.2 3.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "/EPD Power Rails/VN_SW") (pinfunction "2") (pintype "passive") (tstamp 021ae968-7da7-459a-b804-3a461fe2581d))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-40xx.wrl"
+    (model "${KIPRJMOD}/3d_models/generic_inductance.STEP"
       (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 1.1 0.7 1.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2161,6 +2161,11 @@
       (net 2 "+3.3V") (pinfunction "1") (pintype "passive") (tstamp 8201efdf-c0ad-4eb9-ad9a-b6a2febf009c))
     (pad "2" smd rect (at 0.12 4.064 270) (size 0.85 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "/EPD Power Rails/VB_SW") (pinfunction "2") (pintype "passive") (tstamp fe916214-c7b2-4690-b0ba-869cf46ad3cf))
+    (model "${KIPRJMOD}/3d_models/generic_inductance.STEP"
+      (offset (xyz -0.7 -4.06 0))
+      (scale (xyz 0.67 0.5 0.7))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (layer "F.Cu")
