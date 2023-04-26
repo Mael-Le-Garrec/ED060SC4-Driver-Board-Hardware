@@ -5412,7 +5412,7 @@
     (at 55.25 75.25 -90)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
-    (property "LCSC Part #" "C82544")
+    (property "LCSC Part #" "C434419")
     (property "Sheetfile" "ED060SC4_SPI_driver_board.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")

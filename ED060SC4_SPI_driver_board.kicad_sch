@@ -4705,7 +4705,7 @@
     (property "Datasheet" "~" (at 68.58 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part #" "C82544" (at 68.58 36.83 0)
+    (property "LCSC Part #" "C434419" (at 68.58 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7541a0aa-113c-4625-a291-146e671e4d1b))
