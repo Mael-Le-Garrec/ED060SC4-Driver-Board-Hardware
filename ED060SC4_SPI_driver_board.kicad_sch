@@ -3210,7 +3210,7 @@
     (uuid fde1ec8c-6675-486e-b494-077a221a014c)
   )
 
-  (text "Number of pins required from the µC: 32\n\nTPS 65185: 7 (4 min)\n  - SDA & SCL (I²C)\n  - WAKEUP & PWRUP\n  - PWRGOOD (Can be iomitted)\n  - VCOM_CTRL (Can be omitted and connected to 3.3V)\n  - ~{INT} (Can be omitted and left floating)\n\nED060SC4: 15\n  - GMODE\n  - SPV\n  - CKV\n  - CL\n  - LE\n  - OE\n  - SPH\n  - D0 to D7 (Data Bus)\n\nSTM32F103C8 Reserved: 10\n  - SWD (SWCLK, SWDIO)\n  - USART (RX, TX)\n  - SPI (SCK, MOSI, MISO, CS)\n  - Oscillator (OSC_IN, OSC_OUT)"
+  (text "Number of pins required from the µC: 32\n\nTPS 65185: 7 (4 min)\n  - SDA & SCL (I²C)\n  - WAKEUP & PWRUP\n  - PWRGOOD (Can be omitted)\n  - VCOM_CTRL (Can be omitted and connected to 3.3V)\n  - ~{INT} (Can be omitted and left floating)\n\nED060SC4: 15\n  - GMODE\n  - SPV\n  - CKV\n  - CL\n  - LE\n  - OE\n  - SPH\n  - D0 to D7 (Data Bus)\n\nSTM32F103C8 Reserved: 10\n  - SWD (SWCLK, SWDIO)\n  - USART (RX, TX)\n  - SPI (SCK, MOSI, MISO, CS)\n  - Oscillator (OSC_IN, OSC_OUT)"
     (at 219.71 87.63 0)
     (effects (font (size 1.4 1.4)) (justify left bottom))
     (uuid 03a31917-ce6d-4990-aa12-d17cdabf2f0e)
