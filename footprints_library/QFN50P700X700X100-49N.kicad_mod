@@ -142,10 +142,10 @@
   (pad "49" thru_hole circle (at 0.635 -0.635) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp e375ff2a-dec1-4c48-8cd3-2eb84cfa1796))
   (pad "49" thru_hole circle (at 0.635 0.635) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp a7d965d4-5540-4e8f-99e4-809febf71df5))
   (pad "49" thru_hole circle (at 0.635 1.905) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp c4c3152a-f9db-45d1-b8ff-44d0576ca7b8))
+  (pad "49" thru_hole circle (at 1.778 -1.905) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 9bda8009-5d9e-45d4-abdd-3386debc02d5))
   (pad "49" thru_hole circle (at 1.778 -0.635) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 167c6f73-5560-4be7-8858-c778a39276ee))
   (pad "49" thru_hole circle (at 1.778 0.635) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp bf3b9caf-5a68-427d-94ce-7331be8bd978))
   (pad "49" thru_hole circle (at 1.778 1.905) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 481a3248-0c58-4768-8108-d148490d2317))
-  (pad "49" thru_hole circle (at 1.905 -1.905) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp 9bda8009-5d9e-45d4-abdd-3386debc02d5))
   (model "./3d_models/TPS65185RGZR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
